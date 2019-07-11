@@ -1,69 +1,81 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>Script Demo</title>
+     <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Heissler's Website</title>
 
-    <script src="index.js" type="text/javascript">
-
-    </script>
   </head>
-  <body>
-    <h1>Test Environment</h1>
 
-    <nav>
-      test
-      test
-      test
-      test
-    </nav>
+   <body>
+      <header>
+          I am awesome!
+      </header>
+      <h1><u>Josh's Test Website</u></h1>
 
-    <li>
-      <ul>test</ul>
-      <ul>test</ul>
-      <ul id="test">test</ul>
-      <ul>test</ul>
-    </li>
+    <div class = "navbar">
+        <br>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <hr>
+          <li><a href="projects.html">Projects</a></li>
+            <hr>
+          <li><a href="completed.html">Completed Works</a></li>
+            <hr>
+          <li><a href="aboutme.html">About Me</a></li>
+        </ul>
+
+    </div>
+
+    <div class = "content">
+        <br>
+         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+         minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+         sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+         mol lit anim id est laborum."</p>
+
+     </div>
 
 
-    <link rel = "stylesheet"
-    type = "text/css"
-    href = "style.css" />
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <hr>
 
-    <footer>Joshua Heissler TM</footer>
+     <br>
+
+    <div id = "maincontent">
+
+        <p>Testing various instances of positions in how individual elements
+        relate in set parameters when paired next to one another. Also laying the
+        ground work for my own personal writing site.</p>
+
+    </div>
+
+      <button id = "button1">
+      Click here to be annoyed!</button>
+
+  <script>
+   document.getElementById("button1").onclick = function(){
+       alert("Am I annoying you?!");
+   }
+       </script>
+  <footer>I am awesome!</footer>
   </body>
-
-  <button id = "button1">
-    The time is?</button>
-
-<script>
-document.getElementByID("button1").onclick = function(){
-    alert("Hello World!");
-}
-    </script>
 
 
 </html>
-
-<!-- Blocked off
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <title>Labels</title>
-  </head>
-  <body>
-    <section id="overlay">
-      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
-      <hr>
-      <form>
-				<h1>Login to start creating a burger!</h1>
-
-
-        <input type="text" name="username" id="username">
-      </form>
-    </section>
-  </body>
-</html>
- -->

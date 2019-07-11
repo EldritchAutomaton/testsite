@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: blue;
+}
+
+ul {
+  text-decoration-color: white;
+  color: white;
+}
+
+nav {
+  color: white;
+}
+
+footer {
+  color: red;
+}
+
+#test {
+  color: green;
+}
